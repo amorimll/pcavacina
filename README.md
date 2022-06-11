@@ -6,7 +6,11 @@ Para o front end do site, utilizamos:
 Para o back end do site, utilizamos:  
 **Node.js, Express e Mongodb ✔️**  
 
-Galeria do projeto:
+## Instalação
+
+Após baixar os arquivos do projeto, abra dois terminais em cada pasta, **Client** e **Server**, após isso, use o comando **npm install** em cada um dos terminais, esse comando vai iniciar o download de todas as tecnologias necessárias.
+
+##Galeria do projeto:
 ![print1](https://user-images.githubusercontent.com/63107417/173169361-427d94e5-138c-41f8-88d3-bd23a4b7ec7e.png)
 ![print2](https://user-images.githubusercontent.com/63107417/173169364-4f12828d-5e11-4adb-a757-d7ab9558142d.png)
 ![print3](https://user-images.githubusercontent.com/63107417/173169369-7812ca5e-af3f-4184-acac-332b361210cd.png)
