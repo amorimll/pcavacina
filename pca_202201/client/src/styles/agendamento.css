@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Comfortaa:wght@700&family=Lato:wght@700&family=Open+Sans:wght@600&family=PT+Sans:wght@700&family=Palanquin+Dark:wght@600&family=Poppins:wght@300;700&family=Roboto&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+}
+
+.div-main {
+    display: flex;
+    justify-content: center;
+}
+
+.div-main-form {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    height: 70%;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.div-main-form-label {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+    font-family: "PT Sans";
+    font-size: 20px;
+    color: #1d3d34;
+}
+
+.div-main-form-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    font-size: 17px;
+    font-family: 'Poppins';
+    margin-bottom: 10px;
+    border-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+    padding-left: 15px;
+}
+
+.div-main-form-horario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    font-family: 'Poppins';
+    margin-bottom: 10px;
+    border-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+    padding-left: 15px;
+}
+
+.div-main-form-telefone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    font-size: 17px;
+    font-family: 'Poppins';
+    margin-bottom: 10px;
+    border-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+    padding-left: 15px;
+}
+
+.div-main-form-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    font-family: 'Poppins';
+    margin-bottom: 10px;
+    border-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+    padding-left: 15px;
+}
+
+.div-main-form-button {
+    width: 250px;
+    height: 60px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #17f8b5;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    transition: 0.1s;
+    margin-top: 10%;
+}
+
+.div-main-form-button:hover {
+    background-color: #42f49b;
+}
+
+.div-main-form-button:active {
+    background-color: #86f7b5;
+}

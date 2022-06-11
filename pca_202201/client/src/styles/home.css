@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Comfortaa:wght@700&family=Lato:wght@700&family=Open+Sans:wght@600&family=PT+Sans:wght@700&family=Palanquin+Dark:wght@600&family=Poppins:wght@300;700&family=Roboto&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.div-texto-titulo {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 1%;
+}
+
+.div-texto-subtitulo {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1%;
+}
+
+.div-text-paragrafo {
+    font-size: 20px;
+    margin-bottom: 7%;
+    color: rgb(94, 94, 94);
+}
+
+.div-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin-bottom: 1%;
+}
+
+.divdiv {
+    height: 899px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 15%;
+    background-color: rgb(242, 242, 242);
+}
+
+.home-button { 
+    width: 250px;
+    height: 60px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #17f8b5;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    transition: 0.1s;
+    margin-bottom: 2%;
+}
+
+.home-button:hover {
+    background-color: #42f49b;
+}
+
+.home-button:active {
+    background-color: #86f7b5;
+}

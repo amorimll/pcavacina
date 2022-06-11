@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Comfortaa:wght@700&family=Lato:wght@700&family=Open+Sans:wght@600&family=PT+Sans:wght@700&family=Palanquin+Dark:wght@600&family=Poppins:wght@300;700&family=Roboto&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+}
+
+.verAgendamento-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-main-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 35%;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.div-main-data-dados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.div-main-data-labels-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    margin-bottom: 20px;
+    width: 15em;
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+    font-size: 18px;
+}
